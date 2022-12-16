@@ -18,6 +18,6 @@ int main(void)
 			kz--;
 		}
 	}
-	printf("%ld\x", kz);
+	printf("%ld\\x", kz);
 	return (0);
 }
