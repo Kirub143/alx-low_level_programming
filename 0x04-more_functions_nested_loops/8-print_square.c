@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_source - prints a square
- * @size: size of the square.
- * Return: no return.
+ * print_square - prints squares
+ * @size: length and width
+ * Return: squares
  */
+
 void print_square(int size)
 {
 	int a, b;
