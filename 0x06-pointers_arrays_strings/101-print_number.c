@@ -3,20 +3,22 @@
 /**
  * print_number - prints an integer
  * @n: integer
+ * Return: 0
  */
 
 void print_number(int n)
 {
-	unsigned int num = n;
+	unsigned int nx;
 
+	nx  = n;
 	if (n < 0)
 	{
 		_putchar('-');
-		num = -num;
+		nx = -n;
 	}
-
-	if ((num / 10) > 0)
-		print_number(num / 10);
-
-	_putchar((num % 10) + '0');
+	if ((nx / 10 != 0))
+	{
+		print_number(nx / 10);
+	}
+	_putchar((nx % 10) + '0');
 }
