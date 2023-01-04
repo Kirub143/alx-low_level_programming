@@ -3,7 +3,7 @@
 /**
  * factorial - return the factorial of 0 and 1 .
  * @n: the num to find factorial
- * Returrn: if n > 0 - the factorial of n.
+ * Return: if n > 0 - the factorial of n.
  * if n < 0 - 1 to indicate an error.
  */
 
